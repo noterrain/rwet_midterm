@@ -1,0 +1,41 @@
+Is there a better person to have on a show for a science topic than Neil deGrasse Tyson? Yes? Yes, me. Maybe? Ok, well Neil does a smashing job of breaking down science for the general masses. Also, he just comes off as a very likable guy. As a semi-regular guest on The Daily Show, he might have some special status. On a previous episode, he point out to Jon Stewart that their spinning Earth logo was spinning the wrong way. Well, they fixed their logo. Check it out here. That’s much better, isn’t it?
+Although the Earth rotates the correct direction, Neil still wasn’t happy. He commented that it was spinning the right way but it was way too fast. I think his actual quote was “if it was spinning any faster people would just fly off the Earth”. For me, this is like a bat signal in the sky. It begs the question: would people really fly off the Earth at this speed?
+
+Oh yes. Here comes the physics.
+
+How Fast Does the Logo Spin?
+Yes, there seems to be three concentric Earths. Why did Neil point out an error in the rotation speed but not an error in the Earth-in-Earth problem? Maybe these are showing Middle Earth and Middle-Middle Earth. Fine there are multiple Earths. Let me just look at the last one that looks the most like the Earth (has the best colors).
+
+As just a rough approximation, it looks like the final Earth rotates around once in about 0.4 seconds. This would give it an angular speed of about 15.7 rad/s2. Let’s just go with this value. Oh, just a quick note. In this case, I looked at the time it took for one Earth based feature to go half way around the Earth. Many video players just show the video time rounded to the nearest second. So, I use Tracker Video. I can just mark two points the video and it will give me a more exact time difference.
+
+And just for reference, the Daily Show’s normal spinning Earth has an angular velocity of about 2.5 radians per second.
+
+What would this feel like?
+First, it depends on WHERE on the Earth you are. If you were at the north or south pole, you would just be spinning around in place. So, at the poles you would feel cold and dizzy. This video seems to suggest that the world record spinning rate for a skater is around 32 rad/s – so it is possible for humans to spin this fast.
+
+Let me skip down to look at a person at the equator. Here is a view of the Earth from the North pole.
+
+There are really only two forces on this person. There is the gravitational force of the Earth pulling on the person and the ground pushing up. The combination of these two forces result in the person moving in a circle around the center of the Earth. However, in this case we want to consider what the person feels like, not how the person moves. Here is will use a fake force.
+
+Fake forces get a bad reputation from introductory physics. Actually, it is probably justified. Why? Because people like fake forces and they like to use them incorrectly. Fake forces are like a light saber. In the hands of the untrained, you are probably going to cut off your leg at the knee. Well, unless you just want to use it to cut open a tauntaun – you know for warmth.
+
+What are fake forces? Well, what are real forces? Real forces are interactions between two objects. When you have a net force on an object, it changes the momentum of this object (I refer to this as the momentum principle – but most other people call it Newton’s second law). Here is the catch. The momentum principle only works if the momentum is determined from a non-accelerating reference frame. If you are using the surface of the Earth as your reference frame, it is spinning in a circle and thus accelerating. The momentum principle doesn’t work in this case. There is one way to fix this accelerating reference frame (also called a non-inertial reference frame) problem – add fake forces.
+
+The fake force is a force added to an object such that the momentum principle works again. In simple cases, the fake force can be found as:
+
+So, in this case, the frame (surface of the Earth) is accelerating towards the center of the Earth since it is moving in a circle. This means that the fake force is pushing away from ground. And yes, many people call this the centrifugal force – which literally means “center fleeing force”. Since I know the magnitude of the acceleration of an object moving in a circle, I can get the magnitude of the fake force.
+Here, m is the mass of the object (or person) and not the Earth. The R is the radius of the circle that the frame is moving in. At the equator, R is the radius of the Earth – but at other locations these two things are different. Finally, ω is the angular velocity of the Earth.
+
+What about at other locations on the Earth? Here is another diagram.
+Before I get to the “what would it feel like” question, let me address another question. When you “fly off” the face of the Earth? From the viewpoint of this accelerating frame, if the fake force is greater than gravity, you will accelerate away from the ground. Of course, you wouldn’t really fly away. Instead, the gravitational force would not be strong enough to keep you moving in a circle so you would move in a straight-ish line. As seen from the ground this would look like you are shooting away from the surface. Anyway, there is your fly-away condition. The fake force must be greater than the gravitational force.
+If I put in an angle corresponding to the equator, I get an minimum angular velocity of 1.24 x 10-3 rad/s (0.012 rpm). Yes. I know what you are thinking. That’s not very fast. Of course, this is still much faster than the Earth’s rotation rate now which is around 7.27 x 10-5 rad/s.
+
+Well, I guess that puts an end to the first question. If you spin the globe faster, would people fall off? Yes and no. People would fall off even at the speed shown. You don’t have to spin it faster. So, spinning it faster will STILL make people fall off – so it is kind of true.
+
+Where would people stop falling off the Earth? Not everyone would fall off. Santa Claus wouldn’t fall off since he is at the North pole. Let me draw a diagram for some undisclosed location on Earth.
+
+For this person, these forces (in this frame with the fake force) adds up to the zero vector. Why is the force from the ground not perpendicular to the ground? Try this. Redraw that diagram with the ground force in the opposite direction as the gravitational force. What do you see that is “odd”? Yes, there is no force parallel to the ground except for a component of the fake force. This would make the person accelerate towards the equator. The ground can push parallel to the ground – we call this friction.
+
+Ok, but I looking for the latitude where the y-component (which I am calling up and down as the person sees it) forces add up to zero. At the most extreme case, this would be just due to the fake force and gravity. In the y-direction, I can write.
+
+If I put in my Daily Show value for the angular speed, I get a θ (latitude) of 89.95°. That’s pretty close to the North pole. I was going to draw this on the map, but it is a crazy small area near the poles. Crazy small.
